@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "proyek-5"
+version = "0.1.0"
+description = ""
+authors = ["Rakha Elang"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.15"
+gunicorn = "^20.1.0"
+Flask = "^2.2"
+prometheus_client = "^0.16.0"
+numpy = "1.26.4"
+scikit-learn = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

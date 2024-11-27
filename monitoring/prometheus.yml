@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 5s  # Interval pengumpulan data default
+  evaluation_interval: 5s
+
+scrape_configs:
+  - job_name: 'flask_app'  # Nama job monitoring
+    static_configs:
+      - targets: ['flask_app:5000']  # Ganti 'flask_app' dengan nama container Flask Anda
